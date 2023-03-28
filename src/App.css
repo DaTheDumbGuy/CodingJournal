@@ -4,11 +4,11 @@
 .App{
   padding-top: 100px;
   display: flex;
-  /* flex-direction: column;
-  gap: 100px; */
+  flex-direction: column;
+  gap: 100px;
 }
 .main{
-  width: 25%;
+  width: 60%;
   background-color: cyan;
   padding: 10px;
   margin: 0 auto;
@@ -55,7 +55,7 @@ article{
 
 
 }
-section{
+section {
   display: flex;
   justify-content: space-between;
   background-color: lightskyblue;
@@ -64,11 +64,35 @@ section{
   width: 100%;
   gap: 10px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+
+.date {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.text {
+  width: 100%;
+  overflow-wrap: break-word;
+}
 .btn{
-  align-self: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.edit,
+.delete {
+  margin-left: 5px;
 }
 button{
-  padding: 0.5em 1em;
+  padding: 5px 10px;
   border-radius: 8%!important;
   border: 1px solid blue;
 }
@@ -88,23 +112,41 @@ button{
     flex-direction: column;
     gap: 100px;
   }
+  .content{
+    width: 52%;
+  }
+  .btn{
+    width: 48%;
+    padding: 0!important;
+  }
   button{
-    padding: 0.2em 0.5em;
-
+    padding: 2px 5px;
   }
 }
 @media (max-width:800px) and (min-width:427px) {
   .main{
-    width: 80%;
+    width: 90%;
   }
   .App{
     flex-direction: column;
     gap: 100px;
   }
+  .content{
+    width: 50%;
+  }
+  .btn{
+    width: 50%;
+  }
 }
-@media (min-width:801px) {
+@media (min-width:801px) and (max-width:1150px) {
   .main{
-    width: 45%;
+    width: 60%;
+  }
+  .content{
+    width: 60%;
+  }
+  .btn{
+    width: 40%;
   }
 
 }
