@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodingJournal/static/css/main.12cfb163.css",
+    "main.js": "/CodingJournal/static/js/main.2ba33b1f.js",
+    "static/js/787.8887310f.chunk.js": "/CodingJournal/static/js/787.8887310f.chunk.js",
+    "index.html": "/CodingJournal/index.html",
+    "main.12cfb163.css.map": "/CodingJournal/static/css/main.12cfb163.css.map",
+    "main.2ba33b1f.js.map": "/CodingJournal/static/js/main.2ba33b1f.js.map",
+    "787.8887310f.chunk.js.map": "/CodingJournal/static/js/787.8887310f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12cfb163.css",
+    "static/js/main.2ba33b1f.js"
+  ]
+}
