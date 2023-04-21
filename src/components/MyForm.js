@@ -61,6 +61,7 @@ function MyForm() {
                         <label>Date: </label>
                         <span>{currentDate}</span>
                     </div>
+                    {/* This is the changes on branch */}
                     <label htmlFor='thoughts'>Thoughts for the Day</label>
                 </fieldset>
                 <textarea
