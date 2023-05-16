@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css';
 
 const localData = localStorage.getItem('thoughts') ? JSON.parse(localStorage.getItem('thoughts')) : [];
 

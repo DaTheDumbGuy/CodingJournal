@@ -1,0 +1,87 @@
+body{
+    color:white;
+    font-family: 'Khand', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.8),
+        
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(https://th.bing.com/th/id/OIP.IH4ztkQIkH-i6Dzq4iIZrwEsDI?pid=ImgDet&rs=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#introduction header{
+    margin-bottom: 5vh;
+}
+#introduction h1{
+    font-size: 45px;
+
+}
+#introduction p{
+    font-size: 0.9rem;
+    padding-left: 5px;
+    margin-top: 5vh;
+    width: 95%;
+    margin: auto;
+}
+
+#start-containerBTN{
+   margin-top: 5vh;
+   zoom: 0.8;
+}
+#start-containerBTN button{
+    border: 3px solid #8D7B68;
+    padding: 0.5em 3em;
+    transition: all 0.5s ease-in-out;
+    background-color: #8D7B68;
+    color: white;
+}
+#start-containerBTN button:hover{
+    border: 3px solid #8D7B68;
+    background-color: #F1DEC9;
+    color: black;
+    transform: scale(1.05, 1.05);
+}
+
+@media screen and (min-width:768px) {
+    #introduction h1{
+        font-size: 100px;
+    
+    }
+    #introduction p{
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    #start-containerBTN{
+        zoom: 0.9;
+     }
+    
+}
+
+@media screen and (min-width:1024px) {
+    #introduction h1{
+        font-size: 120px;
+    
+    }
+    #introduction p{
+        width: 90%;
+        font-size: 1.3rem;
+        width: 80%;
+    }
+    #start-containerBTN{
+        zoom: 1;
+    }
+    
+}
