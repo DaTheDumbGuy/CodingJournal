@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CodingJournal/static/css/main.5987f3f2.css",
-    "main.js": "/CodingJournal/static/js/main.3d5b7b77.js",
+    "main.js": "/CodingJournal/static/js/main.938ea9ca.js",
     "index.html": "/CodingJournal/index.html",
     "main.5987f3f2.css.map": "/CodingJournal/static/css/main.5987f3f2.css.map",
-    "main.3d5b7b77.js.map": "/CodingJournal/static/js/main.3d5b7b77.js.map"
+    "main.938ea9ca.js.map": "/CodingJournal/static/js/main.938ea9ca.js.map"
   },
   "entrypoints": [
     "static/css/main.5987f3f2.css",
-    "static/js/main.3d5b7b77.js"
+    "static/js/main.938ea9ca.js"
   ]
 }
